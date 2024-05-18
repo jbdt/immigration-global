@@ -1000,7 +1000,12 @@ input[type='checkbox'] {
 }
 
 .accordion-faq .item {
-	margin-bottom: 0.75rem;
+	margin-bottom: 0.1rem;
+}
+
+.accordion-faq h2 {
+    margin-top: 1rem !important;
+    margin-bottom: 0;
 }
 
 .accordion h4 {
@@ -1023,6 +1028,11 @@ input[type='checkbox'] {
 	cursor: pointer;
 	transition: all 0.2s ease;
 	position: relative;
+}
+.accordion-faq span[aria-expanded="true"] .circle-numbering,
+.accordion-faq span[aria-expanded="false"] .circle-numbering {
+	width: 1.5rem !important;
+	height: 1.5rem !important;
 }
 
 .accordion span[aria-expanded="false"] .circle-numbering {
@@ -1459,7 +1469,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-faq {
-	min-height: 72rem;
+	min-height: 93rem;
 }
 
 .lightbox-basic img {
