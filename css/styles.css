@@ -692,6 +692,22 @@ input[type='checkbox'] {
 	     1px  1px 0 #fff;
 }
 
+.navbar-custom .nav-item .nav-lang-vn,
+.navbar-custom .nav-item .nav-lang-us {
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+.navbar-custom .nav-item .nav-lang-vn {
+	background-image: url('../images/vn.png');
+}
+.navbar-custom .nav-item .nav-lang-us {
+	background-image: url('../images/us.png');
+}
+
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
@@ -1930,6 +1946,8 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .navbar-nav {
+		display: flex;
+		align-items: center;
 		margin-top: 0;
 		margin-bottom: 0;
 	}
